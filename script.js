@@ -1,6 +1,4 @@
-window.onload = function() {
-    alert("Welcome to my personal website!");
-};
+
 
 // 1. Smooth Scrolling for Navigation Links
 document.querySelectorAll('nav ul li a').forEach(anchor => {
