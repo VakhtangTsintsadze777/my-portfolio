@@ -135,7 +135,19 @@ section p {
     box-shadow: 0 8px 15px rgba(231, 76, 60, 0.3); /* Lighter red shadow effect on hover */
 }
 
+#portfolio a {
+    display: inline-block;
+    color: #27ae60;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
 
+#portfolio a:hover {
+    color: #2ecc71;
+    text-decoration: underline;
+}
 
 /* Contact Form */
 #contact {
